@@ -1,0 +1,16 @@
+=================BIO DATA===============
+Name               = Harshil Aslaliya
+Father Name        = Varulbhai Aslaliya
+Father occupation  = Bussinessmen
+Mother Name        = Ritaben Aslaliya
+Village Name       = Bhamariya
+City               = Surat
+Height             = 173cm
+Weight             = 68kg
+Occupation         = Flutter Developper
+Mobile Number      = 9328949821
+Email ID           = harshilasalaliya777@gmail.com
+Hobby              = Play Cricket And Darts
+Religion           = Hindu Patel
+Crrunt Address     = 27,angan row house,surat
+State              = Gujarat

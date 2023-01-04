@@ -1,0 +1,272 @@
+#include<stdio.h>
+
+main()
+{
+	int a,qty1=0,qty2=0,qty3=0,bill1=0,bill2=0,bill3=0;
+	int b,qtyb1=0,qtyb2=0,qtyb3=0,billb1=0,billb2=0,billb3=0;
+	
+	
+	printf("\t\t*WELCOME TO H.A FASTFOOD*\n");
+	printf("\t       ***************************\n\n");
+	tmp:
+	printf("\t\t  Press 1 for Pizza\n\n");
+	printf("\t\t  Press 2 for Berger\n\n");
+	printf("\t\t  Press 3 for Pasta\n\n");
+	printf("\t\t  Press 4 for Garlic Bread\n\n");
+	
+	printf("\t\t*****************************\n\n");
+	printf("\t\t  Enter your choice = ");
+	scanf("%d",&a);
+	
+	system("cls");
+		
+		switch(a)
+		{
+			case 1:
+				printf("\n\t\t 1 for Margherita Pizza\t Price:-150\n");
+				printf("\n\t\t 2 for Mexican Pizza\t Price:-200\n");
+				printf("\n\t\t 3 for Cheezy 7 Pizza\t Price:-250\n");
+				
+				printf("\n\t\t***************************************\n");
+				
+				printf("\n\t\t Enter your choice = ");
+				scanf("%d",&a);
+				
+				
+				
+				switch(a)
+				{
+					case 1:
+						printf("\n\t\t Enter Quantity : ");
+						scanf("%d",&qty1);
+						
+						
+						system("cls");
+						
+						printf("\n\t\t You have ordered %d Margherita Pizza\n\n\n",qty1);
+						bill1 += 150 *qty1;
+						
+						
+						printf("\t\t Press 1 for more order\n");
+						printf("\t\t Press 0 for Bill\n\n");
+						
+						printf("\t\t*****************************\n\n");
+						
+						printf("\t\t Enter your choice = ");
+						printf("%d",&a);
+						
+						system("cls");
+						
+						switch(a)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+						
+					case 2:
+						printf("\n\t\t Enter Quantity : ");
+						scanf("%d",&qty2);
+						
+						system("cls");
+						
+						printf("\n\t\t You have ordered %d Mexican Pizza\n\n\n",qty2);
+						bill2 += 200 *qty2;
+						
+						printf("\t\t Press 1 for more order\n");
+						printf("\t\t Press 0 for Bill\n\n");
+						
+						printf("\t\t*****************************\n\n");
+						
+						printf("\t\t Enter your choice = ");
+						scanf("%d",&a);
+						
+						system("cls");
+						
+						switch(a)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+					
+					case 3:
+						printf("\n\t\t Enter Quantity : ");
+						scanf("%d",&qty3);
+						
+						system("cls");
+						
+						printf("\n\t\t You have ordered %d Cheezy 7 Pizza\n\n\n",qty3);
+						bill3 += 250 *qty3;
+						
+						
+						printf("\t\t Press 1 for more order\n");
+						printf("\t\t Press 0 for Bill\n\n");
+						
+						printf("\t\t Enter your choice = ");
+						scanf("%d",&a);
+						
+						system("cls");
+						
+						switch(a)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+							
+					default:
+						printf("Please enter valid choice....");
+						
+						switch(a)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+						
+			    }
+			
+			case 2:
+				printf("\n\t\t 1 for Veg Berger\t Price:-50\n");
+				printf("\n\t\t 2 for Aloo Tikki Berger\t Price:-70\n");
+				printf("\n\t\t 3 for Veg Cheese Berger\t Price:-100\n");
+				
+				printf("\n\t\t***************************************\n");
+				
+				printf("\n\t\t Enter your choice = ");
+				scanf("%d",&b);
+				
+				
+				
+				switch(b)
+				{
+					case 1:
+						printf("\n\t\t Enter Quantity : ");
+						scanf("%d",&qtyb1);
+						system("cls");
+						
+						printf("\n\t\t You have ordered %d Veg Berger\n\n\n",qtyb1);
+						billb1 += 50 *qtyb1;
+						
+						
+						printf("\t\t Press 1 for more order\n");
+						printf("\t\t Press 0 for Bill\n\n");
+						
+						printf("\t\t*****************************\n\n");
+						
+						printf("\t\t Enter your choice = ");
+						scanf("%d",&b);
+						
+						system("cls");
+						
+						switch(b)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+						
+					case 2:
+						printf("\n\t\t Enter Quantity : ");
+						scanf("%d",&qtyb2);
+						
+						system("cls");
+						
+						printf("\n\t\t You have ordered %d Aloo Tikki Berger\n\n\n",qtyb2);
+						billb2 += 70 *qtyb2;
+						
+						printf("\t\t Press 1 for more order\n");
+						printf("\t\t Press 0 for Bill\n\n");
+						
+						printf("\t\t*****************************\n\n");
+						
+						printf("\t\t Enter your choice = ");
+						scanf("%d",&b);
+						
+						system("cls");
+						
+						switch(b)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+					
+					case 3:
+						printf("\n\t\t Enter Quantity : ");
+						scanf("%d",&qtyb3);
+						
+						system("cls");
+						
+						printf("\n\t\t You have ordered %d Cheese Berger\n\n\n",qtyb3);
+						billb3 += 100 *qtyb3;
+						
+						
+						printf("\t\t Press 1 for more order\n");
+						printf("\t\t Press 0 for Bill\n\n");
+						
+						printf("\t\t Enter your choice = ");
+						scanf("%d",&b);
+						
+						system("cls");
+						
+						switch(b)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+							
+					default:
+						printf("Please enter valid choice....");
+						
+						switch(b)
+						{
+							case 1:
+								goto tmp;
+								break;
+							case 2:
+								break;
+						}
+						
+						break;
+						
+						
+				}
+			
+		}
+		
+	printf("\n\t\t Rs:%d for Margherita Pizza\n",bill1);
+	printf("\n\t\t Rs:%d for Mexican Pizza\n",bill2);
+	printf("\n\t\t Rs:%d for Cheezy 7 Pizza\n",bill3);
+	printf("Total Bill = %d",bill1+bill2+bill3);
+}
